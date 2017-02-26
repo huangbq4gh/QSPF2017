@@ -41,6 +41,10 @@ h6{
     margin-right: auto;
 }
 
+.container-qr{
+    width:960px !important;
+}
+
 /* ============================ HOME Page, UpperPart ============================ */
 #intro_div_sm_xs{
     margin-bottom: 3%;
@@ -386,13 +390,13 @@ h6{
     /*padding-left:20px;*/
 }
 
-.proj-slider-thumbnails>ul{
+.proj-slider-thumbnailsul{
     padding-left:0px;
 }
-.proj-slider-thumbnails>ul>li{
+.proj-slider-thumbnails ul>li{
     list-style:none;
 }
-.proj-slider-thumbnails>ul>li>p{
+.proj-slider-thumbnails ul>li>p{
     text-align:center;
 }
 
