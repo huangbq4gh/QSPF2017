@@ -1,0 +1,411 @@
+body{
+    margin-top: 2%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size:x-large;
+}
+h2{
+    padding-top: 5px;
+    color: black;
+    font-size: large;
+}
+h3{
+    margin-top:0px;
+    padding-bottom: 5px;
+    font-size:medium;
+    color: #757575;
+}
+h4{
+    font-size:small;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.block-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============================ HOME Page, UpperPart ============================ */
+#intro_div_sm_xs{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+#intro_div_sm_xs h1{
+    margin-bottom: 3%;
+    font-weight: 700;
+}
+
+#logo_div{
+    padding-top:10px !important;
+}
+
+/* ============================ HOME Page, UpperPart end ============================ */
+
+/* ============================ HOME Page, exp list ============================ */
+#logo{
+    width:15%;
+}
+
+#exp_list>ul>li{
+    list-style: none;
+}
+
+#exp_list h4 {
+    text-transform: uppercase;
+}
+
+#exp_list_sm h4{
+    text-transform: uppercase;
+}
+
+#exp_list .left {
+    float:left;
+}
+
+#exp_list_sm{
+    margin-bottom: 3%;
+}
+
+/* ============================ HOME Page, exp list end ============================ */
+
+/* ============================ HOME Page, proj blocks ============================ */
+/*#proj-main-container{*/
+/*    margin-left:300px;    */
+/*}*/
+
+.project-blocks>.row>div{
+    padding:10px;
+    height:258px;
+}
+.project-blocks>.row>div>a, .project-blocks>.row>div>a:hover, .project-blocks>.row>div>a:focus{
+    
+    color:white;
+}
+.project-blocks>.row>div>a>div{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #EAE9EC;
+}
+.project-blocks>.row>div>a>div>label:hover{
+    cursor: pointer;
+}
+.project-blocks label{
+    font-weight: 400;
+}
+
+.project-blocks>.row>div:nth-child(1), .project-blocks>.row>div:nth-child(2){
+    height:325px;
+}
+
+.proj-thumbnails-title{
+    position: absolute;
+    bottom: 10px;
+    height: 16%;
+    left: 10px;
+    right:10px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #96C6DB !important;
+}
+.proj-thumbnails-title>label{
+    margin-left:10%;
+    margin-top:3%;
+}
+.proj-thumbnails-title>label:hover, .proj-thumbnails-title>label:focus{
+    cursor: pointer;
+}
+
+#proj1-thumbnails>a>div{
+    background-color: rgb(250,203,203);
+}
+#proj1-thumbnails>a>div>img{
+    position: absolute;
+    width: 78%;
+    height: 65%;
+    right: 10px;
+    bottom: 10px;
+    border-bottom-right-radius: 6px;
+}
+
+#proj1-thumbnails>a>div>label{
+    position: absolute;
+    left:21%;
+    top:15%;
+    font-size:x-large;
+}
+
+#proj2-thumbnails>a>div{
+    background-color: #A8DAF0;
+}
+#proj2-thumbnails>a>div>img{
+    position: absolute;
+    width: auto;
+    height: 90%;
+    right:15%;
+    bottom: 10px;
+}
+#proj2-thumbnails>a>div>label{
+    position: absolute;
+    left:7%;
+    top:15%;
+    width: 20%;
+    font-size:x-large;
+}
+
+/*#proj3-thumbnails>a>div{*/
+/*    background-color: rgb(201,220,245);*/
+/*}*/
+#proj3-thumbnails>a>div>img:nth-child(1){
+    position: absolute;
+    width: auto;
+    height: 70%;
+    left:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj3-thumbnails>a>div>img:nth-child(2){
+    position: absolute;
+    width: auto;
+    height: 70%;
+    right:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj3-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(160,186,223);
+}
+
+/*#proj4-thumbnails>a>div{*/
+/*    background-color: rgb(222,222,222);*/
+/*}*/
+#proj4-thumbnails>a>div>img{
+    position: absolute;
+    bottom:18%;
+    left:10px;
+    right:10px;
+    width:auto;
+    height: 77%;
+    border-top-right-radius: 6px;
+}
+#proj4-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(178,174,175);
+}
+
+/*#proj5-thumbnails>a>div{*/
+/*    background-color: rgb(248,235,204);*/
+/*}*/
+#proj5-thumbnails>a>div>img{
+    position: absolute;
+    left:7%;
+    right:7%;
+    height: 75%;
+    bottom:19%;
+}
+#proj5-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(241,205,124);
+}
+
+/*#proj6-thumbnails>a>div{*/
+/*    background-color: rgb(199,247,230);*/
+/*}*/
+#proj6-thumbnails>a>div>img:nth-child(1){
+    position: absolute;
+    width: auto;
+    height: 62%;
+    left:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj6-thumbnails>a>div>img:nth-child(2){
+    position: absolute;
+    width: auto;
+    height: 70%;
+    right:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj6-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(129,203,178);
+}
+
+/*#proj7-thumbnails>a>div{*/
+/*    background-color: rgb(152,198,235);*/
+/*}*/
+#proj7-thumbnails>a>div>img:nth-child(1){
+    position: absolute;
+    width: auto;
+    height: 70%;
+    left:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj7-thumbnails>a>div>img:nth-child(2){
+    position: absolute;
+    width: auto;
+    height: 70%;
+    right:10%;
+    bottom: 18%;
+    box-shadow: 3px 3px 3px grey;
+}
+#proj7-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(131,184,226);
+}
+
+/*#proj8-thumbnails>a>div{*/
+/*    background-color: rgb(202,207,244);*/
+/*}*/
+#proj8-thumbnails>a>div>img{
+    position: absolute;
+    right:10px;
+    height: 68%;
+    bottom:18%;
+}
+#proj8-thumbnails>a>div>.proj-thumbnails-title{
+    background-color: rgb(168,176,236);
+}
+
+/* ============================ HOME Page, proj blocks end ============================ */
+
+/* ============================ media queries ============================ */
+
+@media (max-width: 480px) {
+    .proj-slider-thumbnails{
+        display: none;
+    }
+    #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .proj-slider-thumbnails{
+        position: relative !important;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px){
+
+    .proj-slider-thumbnails{
+        display: none;
+    }
+    
+    .project-blocks>.row>div{
+        height:219px;
+    }
+    
+    .project-blocks>.row>div:nth-child(1), .project-blocks>.row>div:nth-child(2){
+        height:275px;
+    }
+    .proj-thumbnails-title>label{
+        font-size:smaller;
+    }
+    
+    #proj1-thumbnails>a>div>label, #proj2-thumbnails>a>div>label{
+        font-size:medium;
+    }
+    #proj4-thumbnails>a>div>img{
+        height:76%;
+    }
+    
+    #logo{
+        width:4%;
+    }
+    
+    .proj-slider-thumbnails{
+        position: relative !important;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+
+
+    .project-blocks>.row>div{
+        height:214px;
+    }
+    
+    .project-blocks>.row>div:nth-child(1), .project-blocks>.row>div:nth-child(2){
+        height:269px;
+    }
+    
+    #proj1-thumbnails>a>div>label, #proj2-thumbnails>a>div>label{
+        font-size:large;
+    }
+    
+    #proj4-thumbnails>a>div>img{
+        height:75%;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1280px){
+
+
+}
+
+@media (min-width:1281px){
+
+    .project-blocks>.row>div{
+        height:256px;
+    }
+    
+    .project-blocks>.row>div:nth-child(1), .project-blocks>.row>div:nth-child(2){
+        height:323px;
+    }
+    
+    .proj-thumbnails-title>label{
+        font-size:medium;
+    }
+}
+
+/* ============================ media queries end ============================ */
+
+/* ============================ bx-slider configuration ============================ */
+
+
+.proj-slider-thumbnails{
+    position:fixed;
+    left:0px;
+    top:3%;
+    width: 300px;
+    padding-left:40px;
+}
+
+.proj-slider-thumbnails>ul{
+    padding-left:0px;
+}
+.proj-slider-thumbnails>ul>li{
+    list-style:none;
+}
+.proj-slider-thumbnails>ul>li>p{
+    text-align:center;
+}
+
+.proj-slider-main-content{
+    height:100%;
+}
+
+#bx-pager .active>div {
+    border-left-color:rgb(246,105,107);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+#bx-pager>li>a>div {
+    padding-left: 10px;
+    border-left-color:rgb(239,238,239);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.bx-wrapper .bx-viewport{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+/* ============================ bx-slider configuration end ============================ */
