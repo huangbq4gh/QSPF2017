@@ -4,17 +4,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>My Projects</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/proj/bootstrap.min.css">
         <link rel="stylesheet" href="../css/mystyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
     </head>
     <body>
-        <div class="container-qr container">
+        <div class="container">
             <div class="row">
-                <div class="proj-slider-thumbnails col-lg-2"> 
+                <div class="proj-slider-thumbnails col-lg-2 col-md-2 hidden-xs hidden-sm"> 
                     <div class="row">
-                        <div><a href="Home.html"><img src="../css/images/back_icon.png" alt="Back to Home" /></a></div>
-                        <div><h3>All Projects</h3></div>
+                        <div class="back-icon"><a href="Home.html"><img src="../css/images/back_icon.png" alt="Back to Home" /></a></div>
+                        <div><h3 class="close-to-bottom">All Projects</h3></div>
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
                             <div class="row">
                                 <ul id="bx-pager" style="padding-left:0px;">
@@ -69,19 +69,21 @@
                             </ul>
                             </div>
                             <div class="row">
-                                <a href="../files/QingruShen.pdf"><span><img src="../css/images/resume_icon.png" alt="My resume"></span><span>My Resume</span></a>
+                                <a href="../files/QingruShen.pdf"><img src="../css/images/resume_icon.png" alt="My resume" style="float:left;"><h7 style="float:left;">My Resume</h7></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-10 proj-main-container">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 proj-main-container">
                     <div class="row">
-                        <div class="col-lg-12 proj-slider-main-content">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 proj-slider-main-content">
                             <div class="row">
                                 <ul class="bxslider" style="padding-left:0px;    ">
                                     <li>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <h1>Antidote</h1>
+                                            <h3>2015. Web. Research. UX Design. Visual Design</h3>
+                                            <img class="img-responsive" src="../css/images/antidote-header.png" alt="" />
                                             <p>
                                                 Antidote was a 1-week competition hosted by 18F. In this project, I was responsible for UX and UI design. My work included utilizing surveys and interviews to get initial requirement, generate prototypes and deliver final prototypes based on usability tests, create high-fidelity mockups and quality assurance the final implementation. Due to a bunch of reasons we didn’t get the prize but in this project we’ve all experienced very agile and fun teamwork.
                                             </p>
@@ -106,10 +108,17 @@
                                             <p>
                                                 Based on the database and interview with people. We finally landed on designing a website that provides medication data for patients to view the medication information and add their review to it, like a medication yelp. 
                                             </p>
-                                            <div class="image-container">
+                                            <p>
+                                                Here's the wireframe:
+                                            </p>
+                                            <img class="img-responsive image-after-p image-gif" src="../css/images/antidote.gif" alt=""  />
+                                            <p>
+                                                here are the final mockups:
+                                            </p>
+                                            <div class="image-container image-after-p">
                                                 <img src="../css/images/Antidote-homepage.png" alt="" class="img-responsive" />
                                             </div>
-                                            <div class="image-container">
+                                            <div class="image-container image-after-p">
                                                 <img src="../css/images/Antidote-detailpage.png" alt="" class="img-responsive" />    
                                             </div>
                                         </div>

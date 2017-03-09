@@ -4,17 +4,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>My Projects</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/proj/bootstrap.min.css">
         <link rel="stylesheet" href="../css/mystyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
     </head>
     <body>
-        <div class="container-qr container">
+        <div class="container">
             <div class="row">
-                <div class="proj-slider-thumbnails col-lg-2"> 
+                <div class="proj-slider-thumbnails col-lg-2 col-md-2 hidden-xs hidden-sm"> 
                     <div class="row">
-                        <div><a href="Home.html"><img src="../css/images/back_icon.png" alt="Back to Home" /></a></div>
-                        <div><h3>All Projects</h3></div>
+                        <div class="back-icon"><a href="Home.html"><img src="../css/images/back_icon.png" alt="Back to Home" /></a></div>
+                        <div><h3 class="close-to-bottom">All Projects</h3></div>
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
                             <div class="row">
                                 <ul id="bx-pager" style="padding-left:0px;">
@@ -69,87 +69,96 @@
                             </ul>
                             </div>
                             <div class="row">
-                                <a href="../files/QingruShen.pdf"><span><img src="../css/images/resume_icon.png" alt="My resume"></span><span>My Resume</span></a>
+                                <a href="../files/QingruShen.pdf"><img src="../css/images/resume_icon.png" alt="My resume" style="float:left;"><h7 style="float:left;">My Resume</h7></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-10 proj-main-container">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 proj-main-container">
                     <div class="row">
-                        <div class="col-lg-12 proj-slider-main-content">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 proj-slider-main-content">
                             <div class="row">
                                 <ul class="bxslider" style="padding-left:0px;    ">
                                     <li>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <h1>One Stop</h1>
-                                            <h3>2016 Website Research Prototyping</h3>
-                                            <div class="image-container">
-                                                <img src="../css/images/onestop1.png" alt="" />    
-                                            </div>
+                                            <h3>2016. Website. Research. Prototyping</h3>                                            
+                                            <img class="img-responsive" src="../css/images/onestop-header.png" alt="" />    
                                             <p>
                                                 OneStop is a recruiting site for employers to hire candidates through job posting, on campus events and manage relationships with schools. I’ve been the UX designer for it since 2013.
                                             </p>
                                             <p>
-                                            As UX designer in the agile team, I am now responsible for defining every sprint scope, writing user stories, conducting user researches and creating prototypes to communicate among team members.
+                                                As UX designer in the agile team, I am now responsible for defining every sprint scope, writing user stories, conducting user researches and creating prototypes to communicate among team members.
                                             </p>
                                             <p>
                                                 The project is big as a whole, thus here I will just pick one recent release to demonstrate.
                                             </p>
                                             
                                             <h2>Overview</h2>
-                                            <p>
+                                            <p class="after-title">
                                                 The main function in OneStop is allowing recruiters to post their job to multiple OneStop network schools and manage applicants in one place. The job posting flow has several steps: and now the step 2 to select target schools has the lowest conversion rate, and our goal of this sprint is to higher the conversion rate.
                                             </p>
-                                            <img src="../css/images/onestop2.png" alt="" />
+                                            <img class="img-responsive image-after-p" src="../css/images/onestop2.png" alt="" />
                                             <h2>Identify Problems</h2>
-                                            <p>
+                                            <p class="after-title">
                                                 To identify why the conversion rate is so low, I used several methods: 1. Set up an in page survey question which pop-outs when user quit this page; 2. Run another survey to send out to all current users about how they select schools; 3. Scheduled 6 interviews to observe how people actually use the current system.
                                             </p>
-                                            <p style="margin-bottom:0px;">
+                                            <p>
                                                 Here’re main problems I found:
                                             </p>
-                                            <ul>
-                                                <li>
-                                                    1. Users select schools they once worked with, they don’t research schools here;
-                                                </li>
-                                                <li>
-                                                    2. Users care about location and program filters that we don’t make it easy to use                                                    
-                                                </li>
-                                                <li>
-                                                    3. Users don’t need our recommendations or help to do the research of a school on this step
-                                                </li>
-                                                <li>
-                                                    4. Users are confused by the pricing because it is complex and hidden at the corner.
-                                                </li>
-                                            </ul>
-                                            <h2>Redesign</h2>
-                                            <p style="margin-bottom:0px;">
-                                                With the problems found, I started to redesign this page. Here are several steps I took:
+                                            <p class="list-item">
+                                                1. Users search schools they aready knew about;
                                             </p>
-                                            <ul>
-                                                <li>
+                                            <p class="list-item">
+                                                2. Users want to see top schools with relevant majors around job location;  
+                                            </p>
+                                            <p class="list-item">
+                                                3. Users don’t need our recommendations cause they don't research schools here;
+                                            </p>
+                                            <p class="list-item">
+                                                4. Users are confused by the pricing because it is complex and hidden at the corner.
+                                            </p>
+                            
+                                          
+                                            <h2>Redesign</h2>
+                                            <p class="after-title" style="margin-bottom:0px;">
+                                                With the problems found, I started to redesign this page. Here are steps I took:
+                                            </p>
+                                            <p class="list-item">
                                                     1. Create initial wireframes and present to teams to iterate;
-                                                </li>
-                                                <li>
-                                                    2. Finalize several versions and test with users to settle down with 1 version;
-                                                </li>
-                                                <li>
-                                                    3. Create Google analytics goals for the new design;
-                                                </li>
-                                                <li>
-                                                    4. Present to the team of the final decision and implementation.
-                                                </li>
-                                            </ul>
+                                            </p>
+                                            <p class="list-item">
+                                                2. Finalize several versions and test with users to settle down with 1 version;
+                                            </p>
+                                                    
+                                            <p class="list-item">
+                                                3. Create Google analytics goals for the new design;
+                                            </p>
+                                                    
+                                            <P class="list-item">
+                                               4. Present to the team of the final decision and implementation. 
+                                            </P>
+                                            <p>
+                                                Here’s the final wireframe.
+                                            </p>
+                                            <img class="img-responsive image-after-p image-gif" src="../css/images/onestop.gif" alt="" />
                                             <p>
                                                 Here’s the final wireframe with rationales behind it.
                                             </p>
-                                            <img src="../css/images/onestop3.png" alt="" />
+                                            <img class="img-responsive image-after-p" src="../css/images/onestop3.png" alt="" />
                                             <p>
                                                 Here are the final mockups comparisons
                                             </p>
-                                            <img src="../css/images/onestop4.png" alt="" />
-                                            <img src="../css/images/onestop5.png" alt="" />
-                                            
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#">New Mockup</a></li>
+                                                <li><a href="#">Old Mockup</a></li>
+                                            </ul>
+                                            <div id="old_onestop_img" class="image-container image-after-p active">
+                                                <img class="img-responsive" src="../css/images/onestop4.png" alt="" />
+                                            </div>
+                                            <div id="new_onestop_img" class="image-container image-after-p">
+                                                <img class="img-responsive" src="../css/images/onestop5.png" alt="" />
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -164,5 +173,30 @@
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script scr="../js/myscript.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("ul.nav.nav-tabs>li:nth-child(1)>a").click(function(e){
+                    e.preventDefault();
+                    $("#old_onestop_img").show();
+                    $("#new_onestop_img").hide();
+                    var current = $("ul.nav.nav-tabs>li:nth-child(1)");
+                    if(!current.hasClass("active")){
+                        current.addClass("active");
+                        $("ul.nav.nav-tabs>li:nth-child(2)").removeClass("active");
+                    }
+                });
+                $("ul.nav.nav-tabs>li:nth-child(2)>a").click(function(e){
+                    e.preventDefault();
+                    $("#old_onestop_img").hide();
+                    $("#new_onestop_img").show();
+                    var current = $("ul.nav.nav-tabs>li:nth-child(2)");
+                    if(!current.hasClass("active")){
+                        current.addClass("active");
+                        $("ul.nav.nav-tabs>li:nth-child(1)").removeClass("active");
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

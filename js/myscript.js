@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $("ul.nav.nav-tabs>li:nth-child(1)>a").click(function(e){
+        e.preventDefault();
+        $("#old_onestop_img").show();
+        $("#new_onestop_img").hide();
+    });
+    $("ul.nav.nav-tabs>li:nth-child(2)>a").click(function(e){
+        e.preventDefault();
+        $("#old_onestop_img").hide();
+        $("#new_onestop_img").show();
+    });
+    console.log("aaa");
+});

@@ -4,45 +4,58 @@ body{
 }
 
 h1{
-    font-size:24px;
+    font-size:36px;
+    font-weight:700;
 }
 h2{
     padding-top: 5px;
     color: black;
-    font-size: 20px;
+    font-size: 24px;
     font-weight:600;
     margin-top:30px;
+    margin-bottom:0px;
 }
 h3{
-    font-weight:500;
+    font-weight:400;
     padding-bottom: 5px;
-    font-size:16px;
-    color: #757575;
+    font-size:20px;
+    color: #333333;
     line-height:150%;
+    margin-top:0px;
+    margin-bottom:20px;
+}
+h3.close-to-bottom{
+    margin-bottom:0px;
+    margin-top:15px;
+    
 }
 h4{
     font-size:12px;
-    color: #757575;
+    color: #666666;
 }
 
 h5{
     font-size:14px;
     color:#1F1F24;
-    font-weight:300;
+    font-weight:400;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 h6{
     font-size:12px;
     color:#A5A5A7;
+    font-weight: 300;
+    margin-top:6px;
 }
-
-p{
-    line-height:150%;
-    font-size: 16px;
-    font-weight:300;
-    margin-bottom: 5px;
-    margin-top:15px;
+h7{
+    margin-top:5px;
 }
-
+a{
+    color:#333333;}
+    
+a:hover{
+    color:#229ACF;
+}
 .text-center{
     text-align: center;
 }
@@ -79,7 +92,7 @@ p{
 }
 
 #exp_list{
-    margin-top:100%;
+    margin-top:65%;
 }
 
 #exp_list>ul>li{
@@ -304,6 +317,29 @@ p{
 
 
 /* ============================ Project Page ============================ */
+p{
+    line-height:150%;
+    font-size: 20px;
+    font-weight:300;
+    margin-bottom: 0px;
+    margin-top:30px;
+}
+
+p.after-title{
+    margin-top:6px;
+}
+
+p.subtitle{
+    font-size:18px;
+    line-height:140%;
+    color:#666666;
+    margin-top:20px;
+}
+
+p.list-item{
+    margin-top:3px;
+}
+
 .image-container{
     padding:20px;
     background-color:#efefef;
@@ -313,6 +349,10 @@ p{
 .image-container img{
     
     box-shadow: 0px 0px 5px #bfbfbf;
+}
+
+.image-container .chart{
+    box-shadow: none;
 }
 
 .proj-main-container ul li ul{
@@ -325,6 +365,59 @@ p{
 .proj-main-container ul li ul li{
     list-style: none;
 }
+.back-icon{
+    margin-top:22px;
+}
+.resume{
+    padding-top:5px;
+}
+
+.image-after-p{
+    margin-top:30px;
+}
+
+#old_onestop_img{
+    display:none;
+}
+#old_onestop_img.active{
+    display:block;
+}
+#new_onestop_img{
+    display:none;
+}
+#new_onestop_img.active{
+    display:block;
+}
+.image-gif{
+    border-style:solid;
+    border-color:#cccccc;
+    border-width:1px;   
+}
+
+.nav-tabs{
+    border-bottom:solid 1px #ddd;
+}
+.nav{
+    margin-bottom: 0px;
+    list-style:none;
+}
+.nav-tabs>li.active>a{
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border-width:0px 0px 4px 0px !important;
+    border-color: transparent;
+}
+.nav-tabs>li.active{
+    border-bottom:solid 4px #ef696a !important;    
+}
+.proj-main-container ul li ul {
+    padding-left: 0px !important;
+    margin-top: 10;
+    font-size: 14;
+    line-height: 100%;
+}
+
 /* ============================ Project Page END ============================ */
 
 
@@ -422,6 +515,9 @@ p{
 
 /* ============================ bx-slider configuration ============================ */
 
+.bxslider>li{
+    list-style: none;
+}
 
 .proj-slider-thumbnails{
     
