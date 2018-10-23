@@ -1,6 +1,6 @@
 body{
-    margin-top: 2%;
-    font-family: 'Raleway', sans-serif;
+    padding-top: 2%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -170,15 +170,60 @@ a:active{
     padding:10px;
     height:258px;
 }
+
+/* ===============HOME Page card animation=============== */
+.project-blocks>.row>div, .project-blocks>.row>div img, .project-blocks>.row>div div, .project-blocks>.row>div label{
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.project-blocks>.row>div:hover {
+    padding: 5px 10px 15px 10px;
+}
+
+.project-blocks>.row>div:hover img{
+    bottom:20% !important;
+}
+
+.project-blocks>.row>div:hover .proj-thumbnails-title{
+    bottom: 15px !important;
+}
+
+.project-blocks>.row>div:hover a>div
+{
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+#proj1-thumbnails:hover img{
+    bottom: 15px!important;
+}
+
+#proj1-thumbnails:hover label{
+    top: 13%;
+}
+
+#proj2-thumbnails:hover img{
+    bottom: 15px!important;
+}
+
+#proj2-thumbnails:hover label{
+    top: 13%;
+}
+
+/* ===============HOME Page card animation  END=============== */
+
 .project-blocks>.row>div>a, .project-blocks>.row>div>a:hover, .project-blocks>.row>div>a:focus{
     
-    color:white;
+    color:#515668;
 }
 .project-blocks>.row>div>a>div{
     height: 100%;
     width: 100%;
     border-radius: 3px;
-    background-color: #EAE9EC;
+    background-color: #ECF2F5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05)
 }
 .project-blocks>.row>div>a>div>label:hover{
     cursor: pointer;
@@ -199,7 +244,7 @@ a:active{
     right:10px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    background-color: #96C6DB !important;
+    background-color: #A7DAEF;
 }
 .proj-thumbnails-title>label{
     margin-left:10%;
@@ -208,25 +253,28 @@ a:active{
 .proj-thumbnails-title>label:hover, .proj-thumbnails-title>label:focus{
     cursor: pointer;
 }
-.proj-overlay{
-    background-color:#fff !important;
-    opacity:0;
-    position:absolute;
-    top:10px;
-    bottom:10px;
-    left:10px;
-    right:10px;
-    height:auto !important;
-    width:auto !important;
-    z-index:10;
-    transition:all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-}
-.project-blocks>.row>div>a:hover .proj-overlay{
-    opacity:0.3;
-}
+
+/* Not used. This is for the glowing effect. The html part is also commented*/
+/*.proj-overlay{*/
+/*    background-color:#fff !important;*/
+/*    opacity:0;*/
+/*    position:absolute;*/
+/*    top:10px;*/
+/*    bottom:10px;*/
+/*    left:10px;*/
+/*    right:10px;*/
+/*    height:auto !important;*/
+/*    width:auto !important;*/
+/*    z-index:10;*/
+/*    transition:all 0.3s ease;*/
+/*    -webkit-transition: all 0.3s ease;*/
+/*    -moz-transition: all 0.3s ease;*/
+/*    -o-transition: all 0.3s ease;*/
+/*}*/
+
+/*.project-blocks>.row>div>a:hover .proj-overlay{*/
+/*    opacity:0.3;*/
+/*}*/
 
 #proj1-thumbnails>a>div{
     background-color: rgb(250,203,203);
@@ -285,9 +333,6 @@ a:active{
     bottom: 18%;
     box-shadow: 3px 3px 3px grey;
 }
-#proj3-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(160,186,223);
-}
 
 /*#proj4-thumbnails>a>div{*/
 /*    background-color: rgb(222,222,222);*/
@@ -301,9 +346,7 @@ a:active{
     height: 77%;
     border-top-right-radius: 6px;
 }
-#proj4-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(178,174,175);
-}
+
 
 /*#proj5-thumbnails>a>div{*/
 /*    background-color: rgb(248,235,204);*/
@@ -313,11 +356,7 @@ a:active{
     left:7%;
     right:7%;
     height: 75%;
-    bottom:19%;
-    top:10%;
-}
-#proj5-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(241,205,124);
+    bottom:18%;
 }
 
 /*#proj6-thumbnails>a>div{*/
@@ -339,9 +378,6 @@ a:active{
     bottom: 18%;
     box-shadow: 3px 3px 3px grey;
 }
-#proj6-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(129,203,178);
-}
 
 /*#proj7-thumbnails>a>div{*/
 /*    background-color: rgb(152,198,235);*/
@@ -362,9 +398,6 @@ a:active{
     bottom: 18%;
     box-shadow: 3px 3px 3px grey;
 }
-#proj7-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(131,184,226);
-}
 
 /*#proj8-thumbnails>a>div{*/
 /*    background-color: rgb(202,207,244);*/
@@ -374,9 +407,6 @@ a:active{
     right:10px;
     height: 68%;
     bottom:18%;
-}
-#proj8-thumbnails>a>div>.proj-thumbnails-title{
-    background-color: rgb(168,176,236);
 }
 
 /* ============================ HOME Page, proj blocks end ============================ */
