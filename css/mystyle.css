@@ -184,21 +184,22 @@ a:active{
     padding: 5px 10px 15px 10px;
 }
 
-.project-blocks>.row>div:hover img{
+#proj1-thumbnails:hover img, #proj2-thumbnails:hover img, #proj3-thumbnails:hover img, #proj4-thumbnails:hover img, 
+#proj5-thumbnails:hover img, #proj8-thumbnails:hover img
+{
     bottom:20% !important;
+}
+
+#proj6-thumbnails:hover img, #proj7-thumbnails:hover img
+{
+    bottom:3% !important;
 }
 
 .project-blocks>.row>div:hover .proj-thumbnails-title{
     bottom: 15px !important;
 }
 
-/*.project-blocks>.row>div:hover a>div*/
-/*{*/
-/*    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);*/
-/*}*/
-
-/* Not used since I can't make this work with animation transition */
-
+/* Shadow element*/
 .project-blocks>.row>div>a>div:after
 {
     content: '';
@@ -220,6 +221,8 @@ a:active{
     height: 70%;
     bottom: 15px;
 }
+
+/* Shadow element end*/
 
 #proj1-thumbnails:hover img{
     bottom: 15px!important;
@@ -269,7 +272,7 @@ a:active{
     right:10px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    background-color: #A7DAEF;
+    background-color: #F5F5F5;
 }
 .proj-thumbnails-title>label{
     margin-left:10%;
@@ -339,99 +342,82 @@ a:active{
     font-size:x-large;
 }
 
-/*#proj3-thumbnails>a>div{*/
-/*    background-color: rgb(201,220,245);*/
-/*}*/
-#proj3-thumbnails>a>div>img:nth-child(1){
-    position: absolute;
-    width: auto;
-    height: 70%;
-    left:10%;
-    bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
-}
-#proj3-thumbnails>a>div>img:nth-child(2){
-    position: absolute;
-    width: auto;
-    height: 70%;
-    right:10%;
-    bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
+#proj3-thumbnails>a>div{
+    background-image: url("images/proj3-bg.png");
+    background-size:cover;
 }
 
-/*#proj4-thumbnails>a>div{*/
-/*    background-color: rgb(222,222,222);*/
-/*}*/
+#proj3-thumbnails>a>div>img{
+    position: absolute;
+    width: 80%;
+    left:10%;
+    right:10%;
+    bottom: 18%;
+}
+
+#proj4-thumbnails>a>div{
+    background-image: url("images/proj4-bg.png");
+    background-size:cover;
+}
+
 #proj4-thumbnails>a>div>img{
     position: absolute;
-    bottom:18%;
-    left:10px;
-    right:10px;
-    width:auto;
-    height: 77%;
-    border-top-right-radius: 6px;
+    width: 80%;
+    left:10%;
+    right:10%;
+    bottom: 18%;
 }
 
+#proj5-thumbnails>a>div{
+    background-image: url("images/proj5-bg.png");
+    background-size:cover;
+}
 
-/*#proj5-thumbnails>a>div{*/
-/*    background-color: rgb(248,235,204);*/
-/*}*/
 #proj5-thumbnails>a>div>img{
     position: absolute;
-    left:7%;
-    right:7%;
-    height: 75%;
-    bottom:18%;
-}
-
-/*#proj6-thumbnails>a>div{*/
-/*    background-color: rgb(199,247,230);*/
-/*}*/
-#proj6-thumbnails>a>div>img:nth-child(1){
-    position: absolute;
-    width: auto;
-    height: 62%;
+    width: 80%;
     left:10%;
-    bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
-}
-#proj6-thumbnails>a>div>img:nth-child(2){
-    position: absolute;
-    width: auto;
-    height: 70%;
     right:10%;
     bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
 }
 
-/*#proj7-thumbnails>a>div{*/
-/*    background-color: rgb(152,198,235);*/
-/*}*/
-#proj7-thumbnails>a>div>img:nth-child(1){
+#proj6-thumbnails>a>div{
+    background-image: url("images/proj6-bg.png");
+    background-size:cover;
+}
+
+#proj6-thumbnails>a>div>img{
     position: absolute;
-    width: auto;
-    height: 70%;
+    width: 80%;
     left:10%;
-    bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
-}
-#proj7-thumbnails>a>div>img:nth-child(2){
-    position: absolute;
-    width: auto;
-    height: 70%;
     right:10%;
-    bottom: 18%;
-    box-shadow: 3px 3px 3px grey;
+    bottom: 1%;
 }
 
-/*#proj8-thumbnails>a>div{*/
-/*    background-color: rgb(202,207,244);*/
-/*}*/
+#proj7-thumbnails>a>div{
+    background-image: url("images/proj7-bg.png");
+    background-size:cover;
+}
+
+#proj7-thumbnails>a>div>img{
+    position: absolute;
+    width: 44%;
+    left:28%;
+    right:28%;
+    bottom: 1%;
+}
+
+#proj8-thumbnails>a>div{
+    background-image: url("images/proj8-bg.png");
+    background-size:cover;
+}
+
 #proj8-thumbnails>a>div>img{
     position: absolute;
-    right:10px;
-    height: 68%;
-    bottom:18%;
+    width: 80%;
+    left:16%;
+    right:0%;
+    bottom: 18%;
 }
 
 /* ============================ HOME Page, proj blocks end ============================ */
