@@ -91,7 +91,10 @@ a:active{
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    transition:all 0.2s;
+    -webkit-transition: all 0.2s;
 }
+
 .button-style:hover button{
     background-color: #09a2e2;
     color:white;
@@ -304,9 +307,10 @@ a:active{
 /*    opacity:0.3;*/
 /*}*/
 
-#proj1-thumbnails>a>div{
-    background-color: rgb(250,203,203);
-    overflow:hidden;
+#proj1-thumbnails > a > div {
+    background-color: #A8DAF0;
+    overflow: hidden;
+    color: #FFF;
 }
 #proj1-thumbnails>a>div>img{
     position: absolute;
@@ -324,8 +328,9 @@ a:active{
     font-size:x-large;
 }
 
-#proj2-thumbnails>a>div{
+#proj2-thumbnails > a > div {
     background-color: #A8DAF0;
+    color: #FFF;
 }
 #proj2-thumbnails>a>div>img{
     position: absolute;
@@ -464,11 +469,23 @@ p.list-item{
     box-shadow: none;
 }
 
-.proj-main-container ul li ul{
+.proj-main-container video
+{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.after-title
+{
+    margin-top:40px;
+}
+
+.proj-main-container ul li ul {
     padding-left: 0px !important;
-    margin-top:0px;
+    margin-top: 0px;
     font-size: 16px;
-    line-height:150%;
+    line-height: 150%;
 }
 
 .proj-main-container ul li ul li{
@@ -477,8 +494,12 @@ p.list-item{
 .back-icon{
     margin-top:22px;
 }
-.resume{
-    padding-top:5px;
+.back-icon img{
+    width:20%;
+    height: auto;
+}
+.resume {
+    padding-top: 5px;
 }
 
 .image-after-p{
